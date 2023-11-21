@@ -252,7 +252,7 @@ img {
     gap: 40px;
 }
 #services .service-item {
-    flex-basis: 80%;
+    flex-basis: 100%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -263,7 +263,7 @@ img {
     background-size: cover;
     position: relative;
     z-index: 1;
-    /* overflow: hidden; */
+    
 }
 #services .service-item::after {
     content: '';
